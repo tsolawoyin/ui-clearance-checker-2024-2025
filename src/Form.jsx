@@ -49,7 +49,7 @@ function Form() {
                     setRegNum(ev.target.value);
                 }} />
             </label>
-            <button className="button" style={{
+            <button className="button is-info" style={{
                 marginTop: ".5em"
             }}>Check</button>
             {successInfo && <p className="has-text-success">{successInfo}. Check <a href="https://admissions.ui.edu.ng/#/applicant/applicant-dashboard">here</a> regularly to know the status of your clearance.</p>}
