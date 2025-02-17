@@ -1,0 +1,22 @@
+.app {
+    max-width: 600px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app .div {
+    display: grid;
+    gap: 1em;
+}
+
+.app h3 {
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.note {
+    display: grid;
+    gap: 6px;
+}
